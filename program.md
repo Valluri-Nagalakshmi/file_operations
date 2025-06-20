@@ -1,4 +1,4 @@
-# `f1.c` – C Program
+# Create new file and write "Hello, World!"
 
 This program is part of the file operations system programming examples.
 
@@ -39,7 +39,7 @@ gcc f1.c -o f1
 
 
 
-# `f2.c` – C Program
+# Open file and display contents
 
 This program is part of the file operations system programming examples.
 
@@ -83,7 +83,7 @@ gcc f2.c -o f2
 ```
 
 
-# `f3.c` – C Program
+# Create a directory "Test"
 
 This program is part of the file operations system programming examples.
 
@@ -118,7 +118,7 @@ gcc f3.c -o f3
 ./f3
 ```
 
-# `f4.c` – C Program
+# Check if a file exists
 
 This program is part of the file operations system programming examples.
 
@@ -156,7 +156,7 @@ gcc f4.c -o f4
 ```
 
 
-# `f5.c` – C Program
+# Rename a file
 
 This program is part of the file operations system programming examples.
 
@@ -190,7 +190,7 @@ gcc f5.c -o f5
 ./f5
 ```
 
-# `f6.c` – C Program
+# Delete a file
 
 This program is part of the file operations system programming examples.
 
@@ -225,7 +225,7 @@ gcc f6.c -o f6
 ./f6
 ```
 
-# `f7.c` – C Program
+# Copy contents from one file to another
 
 This program is part of the file operations system programming examples.
 
@@ -276,7 +276,7 @@ gcc f7.c -o f7
 ./f7
 ```
 
-# `f8.c` – C Program
+# Move file to another directory
 
 This program is part of the file operations system programming examples.
 
@@ -311,7 +311,7 @@ gcc f8.c -o f8
 ```
 
 
-# `f9.c` – C Program
+# List all files in current directory
 
 This program is part of the file operations system programming examples.
 
@@ -357,7 +357,7 @@ gcc f9.c -o f9
 ```
 
 
-# `f10.c` – C Program
+# Get size of file.txt
 
 This program is part of the file operations system programming examples.
 
@@ -394,7 +394,7 @@ gcc f10.c -o f10
 ./f10
 ```
 
-# `f11.c` – C Program
+# Check if a directory named "Test" exists
 
 This program is part of the file operations system programming examples.
 
@@ -437,7 +437,7 @@ gcc f11.c -o f11
 ```
 
 
-# `f12.c` – C Program
+# Create "Backup" directory in the parent directory
 
 This program is part of the file operations system programming examples.
 
@@ -474,7 +474,7 @@ gcc f12.c -o f12
 ```
 
 
-# `f13.c` – C Program
+# Recursively list all files/directories in a given directory
 
 This program is part of the file operations system programming examples.
 
@@ -535,7 +535,7 @@ gcc f13.c -o f13
 ./f13
 ```
 
-# `f14.c` – C Program
+# Delete all files in directory "Temp"
 
 This program is part of the file operations system programming examples.
 
@@ -590,7 +590,7 @@ gcc f14.c -o f14
 ```
 
 
-# `f15.c` – C Program
+# Count the number of lines in a file named "file.txt"
 
 This program is part of the file operations system programming examples.
 
@@ -640,7 +640,7 @@ gcc f15.c -o f15
 ```
 
 
-# `f16.c` – C Program
+# C program to append "Goodbye!" to the end of an existing file named "file.txt"
 
 This program is part of the file operations system programming examples.
 
@@ -676,7 +676,7 @@ gcc f16.c -o f16
 ```
 
 
-# `f17.c` – C Program
+# C program to change the permissions of a file named "file.txt" to read-only.
 
 This program is part of the file operations system programming examples.
 
@@ -707,7 +707,7 @@ gcc f17.c -o f17
 ```
 
 
-# `f18.c` – C Program
+# C program to change the ownership of a file named "file.txt" to the user "vallu"
 
 This program is part of the file operations system programming examples.
 
@@ -716,7 +716,7 @@ This program is part of the file operations system programming examples.
 ##  Program Code
 
 ```c
-// C program to change the ownership of a file named "file.txt" to the user "user1"
+// C program to change the ownership of a file named "file.txt" to the user "vallu"
 
 #include <stdio.h>
 #include <unistd.h>
@@ -760,7 +760,7 @@ gcc f18.c -o f18
 ```
 
 
-# `f19.c` – C Program
+# C program to get the last modified timestamp of a file named "file.txt
 
 This program is part of the file operations system programming examples.
 
@@ -795,7 +795,7 @@ gcc f19.c -o f19
 ```
 
 
-# `f20.c` – C Program
+#  create a temporary file and write some data to it
 
 This program is part of the file operations system programming examples.
 
@@ -836,7 +836,7 @@ gcc f20.c -o f20
 ```
 
 
-# `f21.c` – C Program
+# check if a given path refers to a file or a directory
 
 This program is part of the file operations system programming examples.
 
@@ -881,7 +881,7 @@ gcc f21.c -o f21
 ./f21
 ```
 
-# `f22.c` – C Program
+# create a hard link named "hardlink.txt" to a file named "source.txt"
 
 This program is part of the file operations system programming examples.
 
@@ -890,7 +890,7 @@ This program is part of the file operations system programming examples.
 ##  Program Code
 
 ```c
-// a C program to create a hard link named "hardlink.txt" to a file named "source.txt
+// a C program to create a hard link named "hardlink.txt" to a file named "source.txt"
 
 #include <stdio.h>
 #include <unistd.h>
@@ -921,7 +921,7 @@ gcc f22.c -o f22
 ```
 
 
-# `f23.c` – C Program
+#  read and display the contents of a CSV file named "data.csv"
 
 This program is part of the file operations system programming examples.
 
@@ -931,7 +931,7 @@ This program is part of the file operations system programming examples.
 
 ```c
 /*program to read and display the contents of a CSV file named
-"data.csv*/
+"data.csv"*/
 
 /*
 #include <fcntl.h>
@@ -981,7 +981,7 @@ gcc f23.c -o f23
 ./f23
 ```
 
-# `f24.c` – C Program
+# get the absolute path of the current working directory
 
 This program is part of the file operations system programming examples.
 
@@ -1019,7 +1019,7 @@ gcc f24.c -o f24
 ```
 
 
-# `f25.c` – C Program
+# get the size of a directory named "file_op"
 
 This program is part of the file operations system programming examples.
 
@@ -1114,7 +1114,7 @@ gcc f25.c -o f25
 ./f25
 ```
 
-# `f26.c` – C Program
+# recursively copy all files and directories from one directory to another
 
 This program is part of the file operations system programming examples.
 
@@ -1210,7 +1210,8 @@ gcc f26.c -o f26
 ```
 
 
-# `f27.c` – C Program
+# get the number of files in a directory named "images"
+
 
 This program is part of the file operations system programming examples.
 
@@ -1263,7 +1264,7 @@ gcc f27.c -o f27
 ```
 
 
-# `f28.c` – C Program
+# Create a FIFO named "myfifo" in current directory
 
 This program is part of the file operations system programming examples.
 
