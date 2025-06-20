@@ -1,40 +1,101 @@
-# File Operations in C
+# File Operations in C (Linux System Programming)
 
-This repository contains a collection of C programs demonstrating basic file operations using system calls in Linux.
-
----
-
-## Table of Contents
-
-- [What is File Handling in C?](#what-is-file-handling-in-c)
-- [Programs Included](#programs-included)
-- [How to Compile and Run](#how-to-compile-and-run)
-- [System Calls Used](#system-calls-used)
-- [Author](#author)
+This repository contains a comprehensive set of C programs that demonstrate how to perform low-level file operations using Linux system calls. These operations are fundamental in understanding how Linux handles files at the kernel level, bypassing standard I/O libraries like `stdio.h`.
 
 ---
 
-## 1. What is File Handling in C?
+## 📚 Table of Contents
 
-File handling allows you to create, open, read, write, modify, and delete files using system calls or standard library functions.
-
----
-
-## 2. Programs Included
-
-- ## 2. Programs Included
-
-- [`programs/read_file.c`](programs/read_file.c) – Read contents of a file
-- [`programs/write_file.c`](programs/write_file.c) – Write text to a file
-- [`programs/copy_file.c`](programs/copy_file.c) – Copy contents between files
-- [`programs/append_file.c`](programs/append_file.c) – Append to an existing file
-- [`programs/file_metadata.c`](programs/file_metadata.c) – Show file permissions and metadata
-
+- [1. Introduction to File Operations](#1-introduction-to-file-operations)
+- [2. File Descriptors and File Abstraction in Linux](#2-file-descriptors-and-file-abstraction-in-linux)
+- [3. Why Use System Calls Instead of Standard I/O?](#3-why-use-system-calls-instead-of-standard-io)
+- [4. Common System Calls for File Operations](#4-common-system-calls-for-file-operations)
+- [5. Error Handling and Return Values](#5-error-handling-and-return-values)
+- [6. Programs Included](#6-programs-included)
+- [7. How to Compile and Run](#7-how-to-compile-and-run)
+- [8. Conclusion](#8-conclusion)
+- [9. Author](#9-author)
 
 ---
 
-## 3. How to Compile and Run
+## 1. Introduction to File Operations
 
-```bash
-gcc filename.c -o output
-./output
+In Linux, almost everything is treated as a file: text files, binary files, devices, sockets, and even pipes. Understanding how to work with files at the system call level is essential for writing efficient and portable system software.
+
+File operations include:
+
+- Creating files
+- Opening files
+- Reading from files
+- Writing to files
+- Appending to files
+- Fetching metadata (size, permissions, timestamps)
+- Deleting or renaming files
+
+These operations are done using low-level APIs provided by the **POSIX standard**, which interact directly with the Linux kernel.
+
+---
+
+## 2. File Descriptors and File Abstraction in Linux
+
+When you open a file in Linux using the `open()` system call, the kernel returns an **integer file descriptor**. This FD represents an entry in the process's file descriptor table.
+
+| File Descriptor | Meaning         |
+|-----------------|-----------------|
+| 0               | Standard Input  |
+| 1               | Standard Output |
+| 2               | Standard Error  |
+| 3+              | User files      |
+
+All file operations (`read()`, `write()`, etc.) use this FD to refer to the file.
+
+---
+
+## 3. Why Use System Calls Instead of Standard I/O?
+
+Standard I/O functions like `fopen()` and `fgets()` are convenient but abstracted. System calls give you **fine-grained control**, which is critical for:
+
+- Embedded systems
+- OS-level programming
+- Drivers and kernel modules
+- High-performance or real-time applications
+
+### Comparison:
+
+| Standard I/O (`stdio.h`)  | System Call (`fcntl.h`, `unistd.h`) |
+|---------------------------|--------------------------------------|
+| `fopen()`                 | `open()`                             |
+| `fread()`, `fwrite()`     | `read()`, `write()`                  |
+| `fclose()`                | `close()`                            |
+| Buffered                  | Unbuffered (immediate sys call)      |
+
+---
+
+## 4. Common System Calls for File Operations
+
+| System Call | Header         | Purpose                                        |
+|-------------|----------------|------------------------------------------------|
+| `open()`    | `<fcntl.h>`    | Open/create a file and get file descriptor     |
+| `read()`    | `<unistd.h>`   | Read bytes from a file                         |
+| `write()`   | `<unistd.h>`   | Write bytes to a file                          |
+| `close()`   | `<unistd.h>`   | Close the file descriptor                      |
+| `lseek()`   | `<unistd.h>`   | Move file pointer (like cursor)                |
+| `stat()`    | `<sys/stat.h>` | Get file metadata (permissions, size, etc.)    |
+| `unlink()`  | `<unistd.h>`   | Delete a file                                  |
+
+Each system call returns a value:
+- ≥0 indicates success (often a descriptor or byte count)
+- -1 indicates an error (use `perror()` or `strerror(errno)` to debug)
+
+---
+
+## 5. Error Handling and Return Values
+
+System calls are **not guaranteed to succeed**. Always check the return value:
+
+```c
+int fd = open("file.txt", O_RDONLY);
+if (fd == -1) {
+    perror("open failed");
+    exit(EXIT_FAILURE);
+}
