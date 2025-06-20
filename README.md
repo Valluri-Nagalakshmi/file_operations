@@ -4,7 +4,7 @@ This repository contains a comprehensive set of C programs that demonstrate how 
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [1. Introduction to File Operations](#1-introduction-to-file-operations)
 - [2. File Descriptors and File Abstraction in Linux](#2-file-descriptors-and-file-abstraction-in-linux)
