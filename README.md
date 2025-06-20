@@ -11,11 +11,7 @@ This repository contains a comprehensive set of C programs that demonstrate how 
 - [3. Why Use System Calls Instead of Standard I/O?](#3-why-use-system-calls-instead-of-standard-io)
 - [4. Common System Calls for File Operations](#4-common-system-calls-for-file-operations)
 - [5. Error Handling and Return Values](#5-error-handling-and-return-values)
-- [6. Programs Included](#6-programs-included)
-- [7. How to Compile and Run](#7-how-to-compile-and-run)
-- [8. Conclusion](#8-conclusion)
-- [9. Author](#9-author)
-
+  
 ---
 
 ## 1. Introduction to File Operations
