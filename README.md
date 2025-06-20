@@ -22,11 +22,14 @@ File handling allows you to create, open, read, write, modify, and delete files 
 
 ## 2. Programs Included
 
-- `read_file.c` – Read contents of a file
-- `write_file.c` – Write text to a file
-- `copy_file.c` – Copy contents between files
-- `append_file.c` – Append to an existing file
-- `file_metadata.c` – Show file permissions and metadata
+- ## 2. Programs Included
+
+- [`programs/read_file.c`](programs/read_file.c) – Read contents of a file
+- [`programs/write_file.c`](programs/write_file.c) – Write text to a file
+- [`programs/copy_file.c`](programs/copy_file.c) – Copy contents between files
+- [`programs/append_file.c`](programs/append_file.c) – Append to an existing file
+- [`programs/file_metadata.c`](programs/file_metadata.c) – Show file permissions and metadata
+
 
 ---
 
