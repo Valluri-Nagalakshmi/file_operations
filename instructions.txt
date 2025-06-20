@@ -1,6 +1,0 @@
-ps -ef
-ps
-ps -e
-ls -l
-ls
-ascii
