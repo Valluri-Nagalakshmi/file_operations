@@ -1,0 +1,57 @@
+hello welcome to embinsys/semicore/quest global/adept chips/zentree/viven embedded academy it's an unique academy in hyderabad,telangana.
+### Paragraph on File Operations in C
+
+File operations in C allow programs to interact with external storage to read from and write to files. This includes creating files, opening them in various modes (read, write, append, etc.), reading or writing data, and then closing the file to free resources. The C standard library provides functions like `fopen()`, `fclose()`, `fread()`, `fwrite()`, `fprintf()`, and `fscanf()` for high-level file handling. For low-level system programming, POSIX system calls like `open()`, `read()`, `write()`, `close()`, and `lseek()` are used, offering greater control over file descriptors. File operations are essential in many applications for tasks like logging, configuration, data persistence, and inter-process communication. Proper error handling and file permission checks are critical to ensure secure and reliable file manipulation.
+ 
+File operations in C are essential for interacting with the file system. They allow a program to create, read, write, and modify files. These operations are done using high-level functions from `stdio.h` like `fopen()`, `fread()`, `fwrite()`, `fgets()`, and `fclose()`.
+
+C also supports low-level file handling through system calls like `open()`, `read()`, `write()`, and `close()` from `fcntl.h` and `unistd.h`, offering more control over file descriptors and permissions. These are commonly used in system programming.
+
+To access and manipulate file metadata, the `stat()` and `lstat()` functions from `sys/stat.h` are used. These functions return details like file type, size, and permissions.
+
+C can also manage directories using functions from `dirent.h`. You can open a directory using `opendir()`, read contents with `readdir()`, and close it using `closedir()`.
+
+Files can be truncated with `truncate()`, and special files like FIFOs (named pipes) can be created using `mkfifo()`. These are useful in inter-process communication.
+
+Permissions and file types (regular file, directory, symbolic link) can be checked using macros like `S_ISREG()`, `S_ISDIR()`, etc.
+
+C supports reading and writing both text and binary files. Binary files are handled using `fread()` and `fwrite()`.
+
+Error handling is crucial in file operations. Always check if file functions return `NULL` or `-1`, and use `perror()` or `strerror()` for debugging.
+
+Efficient file handling includes proper opening and closing of files, avoiding memory leaks, and ensuring data is written using `fflush()` when needed.
+
+File operations are foundational in system-level programming, scripting tools, and embedded software development.
+
+ps -ef
+ps
+ps -e
+ls -l
+ls
+ascii
+hello welcome to embinsys/semicore/quest global/adept chips/zentree/viven embedded academy it's an unique academy in hyderabad,telangana.
+### Paragraph on File Operations in C
+
+File operations in C allow programs to interact with external storage to read from and write to files. This includes creating files, opening them in various modes (read, write, append, etc.), reading or writing data, and then closing the file to free resources. The C standard library provides functions like `fopen()`, `fclose()`, `fread()`, `fwrite()`, `fprintf()`, and `fscanf()` for high-level file handling. For low-level system programming, POSIX system calls like `open()`, `read()`, `write()`, `close()`, and `lseek()` are used, offering greater control over file descriptors. File operations are essential in many applications for tasks like logging, configuration, data persistence, and inter-process communication. Proper error handling and file permission checks are critical to ensure secure and reliable file manipulation.
+ 
+
+
+.tnempoleved erawtfos deddebme dna ,sloot gnitpircs ,gnimmargorp level-metsys ni lanoitadnuof era snoitarepo eliF
+
+.dedeen nehw `)(hsulff` gnisu nettirw si atad gnirusne dna ,skael yromem gnidiova ,selif fo gnisolc dna gninepo reporp sedulcni gnildnah elif tneiciffE
+
+.gniggubed rof `)(rorrerts` ro `)(rorrep` esu dna ,`1-` ro `LLUN` nruter snoitcnuf elif fi kcehc syawlA .snoitarepo elif ni laicurc si gnildnah rorrE
+
+.`)(etirwf` dna `)(daerf` gnisu deldnah era selif yraniB .selif yranib dna txet htob gnitirw dna gnidaer stroppus C
+
+.cte ,`)(RIDSI_S` ,`)(GERSI_S` ekil sorcam gnisu dekcehc eb nac )knil cilobmys ,yrotcerid ,elif raluger( sepyt elif dna snoissimreP
+
+.noitacinummoc ssecorp-retni ni lufesu era esehT .`)(ofifkm` gnisu detaerc eb nac )sepip deman( sOFIF ekil selif laiceps dna ,`)(etacnurt` htiw detacnurt eb nac seliF
+
+.`)(ridesolc` gnisu ti esolc dna ,`)(riddaer` htiw stnetnoc daer ,`)(ridnepo` gnisu yrotcerid a nepo nac uoY .`h.tnerid` morf snoitcnuf gnisu seirotcerid eganam osla nac C
+
+.snoissimrep dna ,ezis ,epyt elif ekil sliated nruter snoitcnuf esehT .desu era `h.tats/sys` morf snoitcnuf `)(tatsl` dna `)(tats` eht ,atadatem elif etalupinam dna ssecca oT
+
+.gnimmargorp metsys ni desu ylnommoc era esehT .snoissimrep dna srotpircsed elif revo lortnoc erom gnireffo ,`h.dtsinu` dna `h.ltncf` morf `)(esolc` dna ,`)(etirw` ,`)(daer` ,`)(nepo` ekil sllac metsys hguorht gnildnah elif level-wol stroppus osla C
+
+.`)(esolcf` dna ,`)(stegf` ,`)(etirwf` ,`)(daerf` ,`)(nepof` ekil `h.oidts` morf snoitcnuf level-hgih gnisu enod era snoitarepo esehT .selif yfidom dna ,etirw ,daer ,etaerc ot margorp a wolla yehT .metsys elif eht htiw gnitcaretni rof laitnesse era C ni snoitarepo eliF
