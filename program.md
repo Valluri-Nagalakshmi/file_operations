@@ -1,9 +1,5 @@
 # Create new file and write "Hello, World!"
 
-This program is part of the file operations system programming examples.
-
----
-
 ## Program Code
 
 ```c
@@ -40,10 +36,6 @@ gcc f1.c -o f1
 
 
 # Open file and display contents
-
-This program is part of the file operations system programming examples.
-
----
 
 ## Program Code
 
@@ -85,9 +77,6 @@ gcc f2.c -o f2
 
 # Create a directory "Test"
 
-This program is part of the file operations system programming examples.
-
----
 
 ## Program Code
 
@@ -119,10 +108,6 @@ gcc f3.c -o f3
 ```
 
 # Check if a file exists
-
-This program is part of the file operations system programming examples.
-
----
 
 ## Program Code
 
@@ -158,10 +143,6 @@ gcc f4.c -o f4
 
 # Rename a file
 
-This program is part of the file operations system programming examples.
-
----
-
 ##  Program Code
 
 ```c
@@ -192,9 +173,6 @@ gcc f5.c -o f5
 
 # Delete a file
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -226,10 +204,6 @@ gcc f6.c -o f6
 ```
 
 # Copy contents from one file to another
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -278,9 +252,6 @@ gcc f7.c -o f7
 
 # Move file to another directory
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
