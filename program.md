@@ -24,17 +24,6 @@ int main() {
 
 ```
 
----
-
-## How to Compile and Run
-
-```bash
-gcc f1.c -o f1
-./f1
-```
-
-
-
 # Open file and display contents
 
 ## Program Code
@@ -65,18 +54,7 @@ int main() {
 
 ```
 
----
-
-## How to Compile and Run
-
-```bash
-gcc f2.c -o f2
-./f2
-```
-
-
 # Create a directory "Test"
-
 
 ## Program Code
 
@@ -96,15 +74,6 @@ int main() {
 }
 
 
-```
-
----
-
-## How to Compile and Run
-
-```bash
-gcc f3.c -o f3
-./f3
 ```
 
 # Check if a file exists
@@ -130,17 +99,6 @@ int main() {
 
 ```
 
-
----
-
-## How to Compile and Run
-
-```bash
-gcc f4.c -o f4
-./f4
-```
-
-
 # Rename a file
 
 ##  Program Code
@@ -162,17 +120,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f5.c -o f5
-./f5
-```
-
 # Delete a file
-
 
 ##  Program Code
 
@@ -192,15 +140,6 @@ int main() {
 }
 
 
-```
-
----
-
-##  How to Compile and Run
-
-```bash
-gcc f6.c -o f6
-./f6
 ```
 
 # Copy contents from one file to another
@@ -241,17 +180,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f7.c -o f7
-./f7
-```
-
 # Move file to another directory
-
 
 ##  Program Code
 
@@ -272,21 +201,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f8.c -o f8
-./f8
-```
-
-
 # List all files in current directory
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -318,21 +233,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f9.c -o f9
-./f9
-```
-
-
 # Get size of file.txt
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -356,20 +257,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f10.c -o f10
-./f10
-```
-
 # Check if a directory named "Test" exists
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -398,21 +286,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f11.c -o f11
-./f11
-```
-
-
 # Create "Backup" directory in the parent directory
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -435,21 +309,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f12.c -o f12
-./f12
-```
-
-
 # Recursively list all files/directories in a given directory
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -497,20 +357,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f13.c -o f13
-./f13
-```
-
 # Delete all files in directory "Temp"
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -551,21 +398,7 @@ int main() {
 
 ```
 
----
-
-## 🛠️ How to Compile and Run
-
-```bash
-gcc f14.c -o f14
-./f14
-```
-
-
 # Count the number of lines in a file named "file.txt"
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -601,21 +434,8 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f15.c -o f15
-./f15
-```
-
-
 # C program to append "Goodbye!" to the end of an existing file named "file.txt"
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -637,21 +457,8 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f16.c -o f16
-./f16
-```
-
-
 # C program to change the permissions of a file named "file.txt" to read-only.
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -668,21 +475,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f17.c -o f17
-./f17
-```
-
-
 # C program to change the ownership of a file named "file.txt" to the user "vallu"
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -721,21 +514,8 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f18.c -o f18
-./f18
-```
-
-
 # C program to get the last modified timestamp of a file named "file.txt
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -756,21 +536,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f19.c -o f19
-./f19
-```
-
-
 #  create a temporary file and write some data to it
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -797,21 +563,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f20.c -o f20
-./f20
-```
-
-
 # check if a given path refers to a file or a directory
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -843,20 +595,8 @@ int main(int argc, char *argv[]) {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f21.c -o f21
-./f21
-```
-
 # create a hard link named "hardlink.txt" to a file named "source.txt"
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -882,21 +622,8 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f22.c -o f22
-./f22
-```
-
-
 #  read and display the contents of a CSV file named "data.csv"
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -943,20 +670,8 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f23.c -o f23
-./f23
-```
-
 # get the absolute path of the current working directory
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -980,21 +695,8 @@ int main() {
 
 ```
 
----
-
-## How to Compile and Run
-
-```bash
-gcc f24.c -o f24
-./f24
-```
-
-
 # get the size of a directory named "file_op"
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -1076,20 +778,8 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f25.c -o f25
-./f25
-```
-
 # recursively copy all files and directories from one directory to another
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -1171,22 +861,8 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f26.c -o f26
-./f26
-```
-
-
 # get the number of files in a directory named "images"
 
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -1225,21 +901,8 @@ int main() {
 
 ```
 
----
-
-## How to Compile and Run
-
-```bash
-gcc f27.c -o f27
-./f27
-```
-
-
 # Create a FIFO named "myfifo" in current directory
 
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -1263,22 +926,10 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f28.c -o f28
-./f28
-```
-
 # `f29.c` – C Program
 
-This program is part of the file operations system programming examples.
 
----
-
-##  Program Code
+##  Read data from FIFO "myfifo"
 
 ```c
 //Read data from FIFO "myfifo"
@@ -1308,24 +959,10 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f29.c -o f29
-./f29
-```
-
-
 # `f30.c` – C Program
 
-This program is part of the file operations system programming examples.
 
----
-
-##  Program Code
-
+##  Truncate "file.txt" to a specific length (e.g., 50 bytes)
 ```c
 // Truncate "file.txt" to a specific length (e.g., 50 bytes)
 
@@ -1345,21 +982,8 @@ int main() {
 
 ```
 
----
 
-##  How to Compile and Run
-
-```bash
-gcc f30.c -o f30
-./f30
-```
-
-
-# `f31.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# search for a specific string in a file named "data.txt" and display the line number(s) where it occurs
 
 ##  Program Code
 
@@ -1394,22 +1018,8 @@ int main() {
 
 ```
 
----
 
-##  How to Compile and Run
-
-```bash
-gcc f31.c -o f31
-./f31
-```
-
-
-# `f32.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# get the file type (regular file, directory, symbolic link, etc.) of a given path
 ##  Program Code
 
 ```c
@@ -1473,21 +1083,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f32.c -o f32
-./f32
-```
-
-# `f33.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Create a New Empty File named "empty.txt"
 ##  Program Code
 
 ```c
@@ -1511,21 +1107,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f33.c -o f33
-./f33
-```
-
-
-# `f34.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Get the Permissions (mode) of a File
 
 ##  Program Code
 
@@ -1549,21 +1131,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f34.c -o f34
-./f34
-```
-
-
-# `f35.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Recursively Delete a Directory and Its Contents
 
 ##  Program Code
 
@@ -1611,21 +1179,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f35.c -o f35
-./f35
-```
-
-
-# `f36.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Read and Display First 10 Lines of "log.txt"
 
 ##  Program Code
 
@@ -1674,21 +1228,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f36.c -o f36
-./f36
-```
-
-# `f37.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Copy "input.txt" to "output.txt" in Reverse Order (Line-wise)
 ##  Program Code
 
 ```c
@@ -1740,21 +1280,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f37.c -o f37
-./f37
-```
-
-
-# `f38.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Create a directory with today's date "YYYY-MM-DD"
 
 ##  Program Code
 
@@ -1782,21 +1308,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f38.c -o f38
-./f38
-```
-
-# `f39.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Read and display binary file "binary.bin"
 ##  Program Code
 
 ```c
@@ -1822,21 +1334,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f39.c -o f39
-./f39
-```
-
-
-# `f40.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Get size of the largest file in current directory
 
 ##  Program Code
 
@@ -1873,21 +1371,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f40.c -o f40
-./f40
-```
-
-# `f41.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Check if "data.txt" is readable
 ##  Program Code
 
 ```c
@@ -1906,22 +1390,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f41.c -o f41
-./f41
-```
-
-
-# `f42.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Create "Logs" directory and move all .log files into it
 ##  Program Code
 
 ```c
@@ -1954,21 +1423,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f42.c -o f42
-./f42
-```
-
-# `f43.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Check if "config.ini" is writable
 ##  Program Code
 
 ```c
@@ -1987,21 +1442,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f43.c -o f43
-./f43
-```
-
-# `f44.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Read "instructions.txt" and execute commands
 ##  Program Code
 
 ```c
@@ -2083,22 +1524,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f44.c -o f44
-./f44
-```
-
-
-# `f45.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Get number of hard links to "file.txt"
 ##  Program Code
 
 ```c
@@ -2120,20 +1546,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f45.c -o f45
-./f45
-```
-
-# `f46.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Copy contents of all .txt files in a directory into "combined.txt"
 
 ##  Program Code
 
@@ -2169,21 +1582,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f46.c -o f46
-./f46
-```
-
-# `f47.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Recursively calculate total size of all files in a directory and subdirectories
 ##  Program Code
 
 ```c
@@ -2225,20 +1624,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f47.c -o f47
-./f47
-```
-
-# `f48.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Get number of bytes in "data.bin"
 
 ##  Program Code
 
@@ -2260,21 +1646,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f48.c -o f48
-./f48
-```
-
-# `f49.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Create directory with current timestamp (YYYY-MM-DD-HH-MM-SS):
 ##  Program Code
 
 ```c
@@ -2299,21 +1671,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f49.c -o f49
-./f49
-```
-
-# `f50.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+#  Create directory named "Documents"
 ##  Program Code
 
 ```c
@@ -2334,22 +1692,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f50.c -o f50
-./f50
-```
-
-
-# `f51.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Check if "file.txt" exists in current directory
 ##  Program Code
 
 ```c
@@ -2369,22 +1712,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f51.c -o f51
-./f51
-```
-
-
-# `f52.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Open "data.txt" and display its contents
 ##  Program Code
 
 ```c
@@ -2409,22 +1737,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f52.c -o f52
-./f52
-```
-
-
-# `f53.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Create "output.txt" and write "Hello, World!"
 ##  Program Code
 
 ```c
@@ -2444,21 +1757,8 @@ int main() {
 
 ```
 
----
 
-##  How to Compile and Run
-
-```bash
-gcc f53.c -o f53
-./f53
-```
-
-# `f54.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Delete "delete_me.txt" from current directory
 ##  Program Code
 
 ```c
@@ -2478,21 +1778,8 @@ int main() {
 
 ```
 
----
 
-##  How to Compile and Run
-
-```bash
-gcc f54.c -o f54
-./f54
-```
-
-
-# `f55.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Rename "old_name.txt" to "new_name.txt"
 
 ##  Program Code
 
@@ -2512,21 +1799,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f55.c -o f55
-./f55
-```
-
-# `f56.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Copy contents of one file to another
 ##  Program Code
 
 ```c
@@ -2551,28 +1824,9 @@ int main() {
     return 0;
 }
 
-
-
-
-
-
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f56.c -o f56
-./f56
-```
-
-# `f61.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Count lines in log.txt
 ##  Program Code
 
 ```c
@@ -2600,22 +1854,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f61.c -o f61
-./f61
-```
-
-
-# `f63.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Create symbolic link
 ##  Program Code
 
 ```c
@@ -2635,20 +1874,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f63.c -o f63
-./f63
-```
-
-# `f68.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+# Implement a C program to get the size of a file named "image.jpg"
 
 ##  Program Code
 
@@ -2670,22 +1896,8 @@ int main() {
 
 ```
 
----
 
-##  How to Compile and Run
-
-```bash
-gcc f68.c -o f68
-./f68
-```
-
-
-# `f69.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Create "notes.txt" and write multiple lines
 ##  Program Code
 
 ```c
@@ -2714,22 +1926,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f69.c -o f69
-./f69
-```
-
-
-# `f70.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Count words in "notes.txt"
 ## Program Code
 
 ```c
@@ -2761,22 +1958,7 @@ int main() {
 
 ```
 
----
-
-## How to Compile and Run
-
-```bash
-gcc f70.c -o f70
-./f70
-```
-
-
-# `f71.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Create symbolic link "shortcut.txt" to "target.txt"
 ##  Program Code
 
 ```c
@@ -2791,22 +1973,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f71.c -o f71
-./f71
-```
-
-
-# `f72.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
-
+# Change "important.doc" permissions to read/write for owner only
 ##  Program Code
 
 ```c
@@ -2815,27 +1982,14 @@ This program is part of the file operations system programming examples.
 #include <sys/stat.h>
 
 int main() {
-    return chmod("vijaysir_questions.doc", S_IRUSR | S_IWUSR);
+    return chmod("important.doc", S_IRUSR | S_IWUSR);
 }
 
 
 ```
 
----
+# Get last access time of "data.txt"
 
-##  How to Compile and Run
-
-```bash
-gcc f72.c -o f72
-./f72
-```
-
-
-# `f73.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
 
 ##  Program Code
 
@@ -2857,21 +2011,7 @@ int main() {
 
 ```
 
----
-
-##  How to Compile and Run
-
-```bash
-gcc f73.c -o f73
-./f73
-```
-
-
-# `f82.c` – C Program
-
-This program is part of the file operations system programming examples.
-
----
+#  Display binary file in hexadecimal
 
 ##  Program Code
 
@@ -2925,16 +2065,5 @@ int main() {
     return 0;
 }
 
-
 ```
-
----
-
-##  How to Compile and Run
-
-```bash
-gcc f82.c -o f82
-./f82
-```
-
 
